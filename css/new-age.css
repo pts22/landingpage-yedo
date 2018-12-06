@@ -4,6 +4,14 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-new-age/blob/master/LICENSE)
  */
 
+
+.h3text{
+  margin-top:30px;
+  font-style:italic;
+  font-size:20px;
+}
+
+
 .wechat{
 margin-top: 30px;
 }
@@ -313,6 +321,8 @@ section.cta {
   background-image: url("https://cdn.dribbble.com/users/566817/screenshots/2141894/leap.gif");
   background-position: center;
   background-size: cover;
+  display:flex;
+  justify-content: center;
 }
 
 section.cta .cta-content {
@@ -322,7 +332,6 @@ section.cta .cta-content {
 
 section.cta .cta-content h2 {
   font-size: 50px;
-  max-width: 450px;
   margin-top: 0;
   margin-bottom: 25px;
   color: white;
@@ -441,9 +450,8 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
-  color: white;
-  border-color: #fdcc52;
-  background-color: #fdcc52;
+  color: black;
+  background-color: rgba(255,255,255,0.9);
 }
 
 .btn {
